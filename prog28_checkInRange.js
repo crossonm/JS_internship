@@ -2,7 +2,7 @@
 //27 JAN 2019     //JSIntern
 
 /* Task is to write a JS program to check if two given integer values are in the range 
-50...99, inclusive. Return true if eiher of them are in the same range  */
+50...99, inclusive. Return true if eiher of them are in the specified range  */
 
 function checkRange(num1,num2) {
     var result 

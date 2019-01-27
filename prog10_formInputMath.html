@@ -1,0 +1,32 @@
+<!-- M.S. Crosson    //prog10_formInputMath.html
+     27 JAN 2019     //JSIntern
+
+Task is to write a JS script that takes two user-inputted numbers from a 
+form and either multiplies or divides them. Required format of form is
+given in the assignment handout --> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Program 14 Mini Math Form</title>
+    <script src="./prog10_formInputMath.js"></script>
+</head>
+<body>
+        <form>
+         1st Number :  <input type="text" id="input_num1" value=""> <!-- first text field -->
+         <br>
+         2nd Number :  <input type="text" id="input_num2" value = ""> <!-- second text field -->
+         <br>
+          <input type="button" value="Multiply" onclick="multiplyEm()" /> <!-- mult button, onclick calls the multiplyEm fxn-->
+          <input type="button" value="Divide" onclick="divideEm()" />  <!-- divide button, onclick calls the divideEm fxn -->
+          <br>
+          <div id="result"></div> <!-- Creates the spot where the output will go-->
+        </form>
+
+</body>
+</html>
+
