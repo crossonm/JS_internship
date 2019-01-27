@@ -24,5 +24,5 @@ function triangleArea (a,b,c) {
 
 }
 
-triangleArea(5,6,7)
+triangleArea(5,6,7) // calls the triangleArea function defined above
 
