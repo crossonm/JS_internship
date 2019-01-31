@@ -1,4 +1,4 @@
-//M.S. Crosson    //pro61_concatStringTails.js
+//M.S. Crosson    //prog61_concatStringTails.js
 //31 JAN 2019     //JSIntern
 
 /* Task is to write a JS program to concatenate two strings except
