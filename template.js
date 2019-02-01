@@ -1,5 +1,5 @@
 //M.S. Crosson    //prog.js
-//31 JAN 2019     //JSIntern
+//1 FEB 2019     //JSIntern
 
 /* Task is to write a JS program to    */
 

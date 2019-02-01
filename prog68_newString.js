@@ -17,4 +17,5 @@ function newString(num1,string1) {
     }
 }
 
-newString(5, "elephant")
+newString(6, "cow")
+newString(7, "elephant")
