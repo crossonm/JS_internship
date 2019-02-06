@@ -1,6 +1,7 @@
 //M.S. Crosson    //prog81_addDigits.js
 //4 FEB 2019     //JSIntern
 
+
 /* Task is to write a JS program to add two digits of a given
 positive integer of length two  */
 
