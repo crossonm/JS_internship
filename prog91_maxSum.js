@@ -6,13 +6,12 @@ k consecutive numbers (numbers that follow each other in order) of a given
 array of positive integers.  */
 
 function maxSum(num1, array1) {
-    var thisSum;
+    var thisSum; //holds the result of each k-element sum test
     var maxSum = 0;
 
     
 //starting with each element in turn...
     for (i = 0; i < (array1.length); i ++){
-        console.log("This is the ith number: " + array1[i])
         inner_loop_start = i
         thisSum = 0
 
@@ -29,7 +28,6 @@ function maxSum(num1, array1) {
         } else {
             //otherwise, previous maxSum value stands
             maxSum = maxSum
-            console.log("C")
         }
     }
 
@@ -37,4 +35,4 @@ function maxSum(num1, array1) {
     console.log("The maximum sum from " + num1 + " consecutive elements is " + maxSum)
 }
 
-maxSum(3, [1,2,99,3,4,5])
+maxSum(3, [1,2,99,3,4,5,1312])
