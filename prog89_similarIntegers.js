@@ -1,23 +1,9 @@
-//M.S. Crosson    //prog.js
+//M.S. Crosson    //prog89_similarIntegers.js
 //5 FEB 2019     //JSIntern
 
-/* Task is to write a JS program to check whether two given integers are similar
-or not, if a given divisor divides both integers or it does not divide either.   */
+/* Task is to write a JS program to check whether two given integers are similar or not, if a given
+divisor divides both integers and it does not divide either. For example, x = 10, y = 30, and z = 300,
+we can replace $ with a multiple operator (*) to obtain x * y = z   */
 
-function bothFactor(num1,num2,factor) {
-    similar = true
-
-    if ((num1 % factor !== 0) || (num2 % factor !== 0)){
-        similar = false
-    }
-
-    if (similar == false) {
-        console.log("The numbers are not similar. " + factor + " is not a factor of both.")
-    } else {
-        console.log("The numbers are similar. " + factor + " is a factor of both.")
-    }
-}
-
-
-bothFactor(234,458127,3)
-bothFactor(234,425234,3)
+//Is part of the question missing? There isn't a '$' anywhere in the text. Skip for now and
+//check on this one.
