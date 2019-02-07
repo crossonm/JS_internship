@@ -1,5 +1,5 @@
 //M.S. Crosson    //prog92_maxDiff.js
-//5 FEB 2019     //JSIntern
+//7 FEB 2019     //JSIntern
 
 /* Task is to write a JS program to find the maximal difference between any two
 adjacent elements in a given array of integers  */
