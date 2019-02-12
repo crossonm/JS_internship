@@ -6,14 +6,6 @@ will make it a palindrome   */
 
 //FUCKING MESS. COME BACK TO THIS AND REDO IT
 
-function reverseArray(array1) {
-    var newArray = [];
-    for (var i = array1.length - 1; i >= 0; i--) {
-      newArray.push(array1[i]);
-    }
-    return newArray;
-  }
-
 function makePalindrome(string1) {
 
     var origLength = string1.length;
@@ -27,37 +19,21 @@ function makePalindrome(string1) {
    if (array1.toString() == array2.toString()) {
        console.log("Hey! It's already a palindrome.")
    } else {
-      for (i=1; i<5; i++){
-        array1.splice(origLength,0,array2.pop())   
-        console.log(array1)
-        newArray = reverseArray(array1)
-        console.log(newArray)
-        if  (array1.toString() == newArray.toString())  {console.log("yup")}
-      }
-      addedChars = (array1.length - origLength)
-      console.log("Added " + addedChars + " chars.")
+       console.log("This is not a palindrome")
+       array3 = array1
+       console.log(array3.pop())
 
-         
-     
-      flipped = string1.split("").reverse()
-      console.log(flipped)
-      flippedString = ((flipped.toString()).replace(/,/gi, ""))
-      console.log(flippedString)    
-      addedLetters = (flippedString.substring((flippedString.length - addedChars)))
-      console.log("Added " + addedLetters + " to make a palindrome")
+       array1.splice(origLength,0,array3.pop())
+       console.log(array1)
+       }
+
+   }
       
-    }
-}
+
        
-    
+makePalindrome("flower")
 
  
 
 
   
-
-
-
-
-
-makePalindrome("hellola")
