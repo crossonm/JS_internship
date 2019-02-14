@@ -1,5 +1,5 @@
 //M.S. Crosson    //prog122_increaseDecrease.js
-//12 FEB 2019     //JSIntern
+//13 FEB 2019     //JSIntern
 
 /* Task is to write a JS program to check whether a given array of integers
 represents either a strictly increasing or strictly decreasing sequence   */
